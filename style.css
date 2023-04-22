@@ -782,3 +782,14 @@ button {
 	font-size: 40px;
 	letter-spacing: 2px;
 }
+
+.footer{
+  background-color: #f37272;
+  width: 100vw;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid black; */
+}
+
