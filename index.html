@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Famigo</title>
+		<link rel="shortcut icon" href="./img/favicon.png" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+
+	<body>
+		<div class="page" id="page">
+			<span class="menu_toggle" id="menu_toggle">
+				<i class="menu_open fa fa-bars fa-lg"></i>
+				<i class="menu_close fa fa-times fa-lg"></i>
+			</span>
+
+			<ul class="menu_items">
+				<li>
+					<a href=""><i class="fa fa-home fa-2x"></i> Home</a>
+				</li>
+				<li>
+					<a href=""><i class="fa fa-solid fa-users fa-2x"></i> About</a>
+				</li>
+				<li>
+					<a href=""><i class="fa fa-solid fa-plane fa-2x"></i> Pricing</a>
+				</li>
+			</ul>
+			<main class="content" id="content">
+				<div class="content_inner">
+					<div class="innerHeader">
+						<img class="logo" src="./img//logo.png" alt="" />
+						<h1 class="famigo">Famigo</h1>
+					</div>
+                    <button class="order">
+                        <span class="default">Travel Now</span>
+                        <span class="success">
+                            Soon
+                            <svg viewBox="0 0 12 10">
+                                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                            </svg>
+                        </span>
+                        <div class="box"></div>
+                        <div class="truck">
+                            <div class="back"></div>
+                            <div class="front">
+                                <div class="window"></div>
+                            </div>
+                            <div class="light top"></div>
+                            <div class="light bottom"></div>
+                        </div>
+                        <div class="lines"></div>
+                    </button>
+				</div>
+				<div class="middler">
+					<h2>It's a big world out there, Go Explore !!</h2>
+					<img src="./img/3dTravel.png" alt="" />
+				</div>
+				<div class="circle">
+					<div class="container">
+						<div class="trending-heading">
+							<div class="heading">Trending Destinations</div>
+							<div class="next-prev">
+								<img
+									class="h-shake"
+									id="prev"
+									src="./img//previous.png"
+									alt="" />
+								<img
+									class="h-shake"
+									id="next"
+									src="https://cdn-icons-png.flaticon.com/512/189/189253.png"
+									alt="" />
+							</div>
+						</div>
+						<div class="cards">
+							<div class="card h-float">
+								<button class="money">₹ 14000</button>
+								<img
+									class="card-img"
+									id="img1"
+									src="https://image3.mouthshut.com/images/imagesp/925004353s.jpg"
+									alt="ooty" />
+								<div class="card-sub" id="sub1">Enjoy the beauty of Ooty</div>
+							</div>
+							<div class="card h-float">
+								<button class="money">₹ 12000</button>
+								<img
+									class="card-img"
+									id="img2"
+									src="https://images.unsplash.com/photo-1587922546307-776227941871?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z29hfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+									alt="Goa" />
+								<div class="card-sub" id="sub2">
+									Life is short, but a trip to Goa is always a good idea
+								</div>
+							</div>
+							<div class="card h-float">
+								<button class="money">₹ 15400</button>
+								<img
+									class="card-img"
+									id="img3"
+									src="https://images.unsplash.com/photo-1529556253689-cf147e0fb3d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGhpbWFsYXlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+									alt="Himalaya" />
+								<div class="card-sub" id="sub3">
+									Faith is like the Himalaya mountains, beautiful
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>
